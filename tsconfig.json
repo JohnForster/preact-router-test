@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src/client/",
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "es5",
+    "jsx": "react",
+    "jsxFactory": "h",
+    "allowJs": true,
+    "lib": [
+      "dom",
+      "es7"
+    ],
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "exclude": [
+    "**/*.ignore.ts"
+  ]
+}
