@@ -9,7 +9,7 @@ export default class App extends Component {
     return (
       <Router>
         <Suspense fallback={<h1>loading...</h1>}>
-          <SomeRoute message='Hello world'/>
+          <SomeRoute path='/' message='Hello world'/>
         </Suspense>
       </Router>
     )
